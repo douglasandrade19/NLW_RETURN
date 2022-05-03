@@ -1,4 +1,4 @@
-
+/*=== GERAL =================================*/
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +38,7 @@ body {
 ul {
     list-style: none;
 }
-
+/*=== HEADER =================================*/
 header {
     margin-top: calc(4.1rem + var(--nav-height));  
 }
@@ -125,7 +125,7 @@ header img {
     font-size: 1.6rem;
     line-height: 150%;
 }
-
+/*=== NAVIGATION =================================*/
 nav {
     display: flex;
     
@@ -161,7 +161,7 @@ nav button {
     border: none;
     cursor: pointer;
 }
-
+/*=== MENU-EXPANDED =================================*/
 body.menu-expanded{
     overflow:hidden ;
 }
